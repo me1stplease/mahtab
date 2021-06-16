@@ -244,13 +244,32 @@ header{
     align-items: center;
     justify-content: space-evenly;
 }
+#project1{
+    background-image: url(Image/project\ 1.JPG);
+    background-position: center;
+    background-size: cover;
+    background-origin: content-box;
+}
+#project2{
+    background-image: url(Image/project\ 2.JPG);
+    background-position: center;
+    background-size: cover;
+
+}
+#project3{
+    background-image: url(Image/project\ 3.1.JPG);
+    background-position: center;
+    background-size: cover;
+    background-origin: content-box;
+}
 .project{
-    background-image: url(https://source.unsplash.com/user/erondu/1600x900);
     width: 18vw;
     height: 17vw;
     margin: 3vw;
     transition: width 0.5s,height 0.5s;
+    background-size:100% 100%;
 }
+
 .project:hover{
     width: 19.5vw;
     height: 18.5vw;
